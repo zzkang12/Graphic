@@ -20,8 +20,8 @@ public class ButtonEx extends Frame{
 		setSize(300, 300);
 		setVisible(true);
 		
-//		WinEvent we= new WinEvent()
-//		addWindowListener(we);
+		WinEvent we= new WinEvent();
+		addWindowListener(we);
 		
 	}
 

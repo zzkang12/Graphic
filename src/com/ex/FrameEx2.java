@@ -2,6 +2,11 @@ package com.ex;
 
 import java.awt.*;
 import java.awt.event.*;
+class WinEvent extends WindowAdapter {
+	public void windowClosing(WindowEvent e) {
+		System.exit(0);
+	}
+}
 
 public class FrameEx2 extends Frame {
 
@@ -16,10 +21,6 @@ public class FrameEx2 extends Frame {
 		new FrameEx2();
 	}
 
-	class WinEvent extends WindowAdapter {
-		public void windowClosing(WindowEvent e) {
-			System.exit(0);
-		}
-	}
+	
 
 }

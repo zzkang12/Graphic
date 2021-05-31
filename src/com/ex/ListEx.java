@@ -33,10 +33,4 @@ public class ListEx extends Frame{
 	public static void main(String[] args) {
 		new ListEx(args);
 	}
-
-	public class WinEvent extends WindowAdapter{
-		public void windowClosing(WindowEvent e) {
-			System.exit(0);
-		}
-	}
 }
